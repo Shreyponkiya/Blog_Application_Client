@@ -1,14 +1,14 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { AuthProvider } from "./context/AuthContext";
-import Home from "./component/Home";
-import About from "./component/About";
-import AddBlog from "./component/AddBlog";
-import Navbar from "./component/navbar";
-import Login from "./component/Login";
-import Signup from "./component/Signup";
-import Profile from "./component/Profile";
-import PrivateRoute from "./component/PrivateRoute";
+import Home from "./components/Home";
+import About from "./components/About";
+import AddBlog from "./components/AddBlog";
+import Navbar from "./components/navbar";
+import Login from "./components/Login";
+import Signup from "./components/Signup";
+import Profile from "./components/Profile";
+import PrivateRoute from "./components/PrivateRoute";
 import "./App.css";
 
 const App = () => {
